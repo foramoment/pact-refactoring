@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+%w[Ruby Python Go Rust Kotlin].each { Skill.find_or_create_by!(name: _1)}
+%w[Coding Reading Sport Videogames].each { Interest.find_or_create_by!(name: _1) }
