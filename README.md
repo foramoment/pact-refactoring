@@ -10,3 +10,5 @@
 8. Поиск и добавление `Skills` и `Interests` сделал через `find_each` и используя оператор `<<`
 9. Создание пользователя и добавление к нему Skills и Interests завернул в транзакцию, чтобы либо всё завершалось корректно, либо откатывалось.
 9. `User.create` заменил на `User.new`, всё равно он сохраняется в конце транзакции с методом `save!`
+
+Ссылка на Users::Create: https://github.com/foramoment/pact-refactoring/blob/main/app/interactions/users/create.rb
