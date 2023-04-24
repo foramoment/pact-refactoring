@@ -12,4 +12,5 @@
 9. `User.create` заменил на `User.new`, всё равно он сохраняется в конце транзакции с методом `save!`
 10. Методы проверки существования пользователя в бд, проверки возраста и пола вынесены в отдельные методы для большей читаемости и упрощения восприятия
 
-Ссылка на Users::Create: https://github.com/foramoment/pact-refactoring/blob/main/app/interactions/users/create.rb
+Ссылка на оригинальный файл для рефакторинга: https://github.com/foramoment/pact-refactoring/blob/main/refactor_me.rb
+Ссылка на итоговый: https://github.com/foramoment/pact-refactoring/blob/main/app/interactions/users/create.rb
